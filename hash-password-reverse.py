@@ -1,3 +1,4 @@
+#password testing: p4sswdtest
 import hashlib
 md5 = "b5b08012876f1736971b145f1156c7fa"
 with open("wordlist.txt") as fname:
