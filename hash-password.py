@@ -1,3 +1,4 @@
+#password testing: chg3p4sswd
 import hashlib
 md5 = "2b51a4287ea2c750614f9eccfd505416"
 with open("wordlist.txt") as fname:
