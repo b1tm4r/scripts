@@ -25,7 +25,7 @@ echo "| DELETING SUBSCRIBER USERS | "
 echo "-----------------------------$(tput setaf 7)$(tput sgr0)"
 wp user delete $(wp user list --role=subscriber --field=ID --path=/var/www/html/wordpress --allow-root) --path=/var/www/html/wordpress --allow-root --yes
 
-#delete subscriber users
+#delete customer users
 echo "$(tput setaf 3)$(tput bold)-----------------------------"
 echo "| DELETING CUSTOMER USERS | "
 echo "-----------------------------$(tput setaf 7)$(tput sgr0)"
