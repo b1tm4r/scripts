@@ -8,7 +8,7 @@ if len(sys.argv) == 2:
 	target = socket.gethostbyname(sys.argv[1]) #Translate hostname to ip
 else:
 	print("Invalid amount of arguments.")
-	print("Syntax: python3 scanner.py <ip>")
+	print("Syntax: python3 port-scan.py <ip>")
 #Add a pretty banner
 print("-" * 50)
 print("Scanning target "+target)
