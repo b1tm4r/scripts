@@ -12,7 +12,7 @@ else:
 #Add a pretty banner
 print("-" * 50)
 print("Scanning target "+target)
-print("TIme started: "+str(date.now()))
+print("Time started: "+str(date.now()))
 print("-" * 50)
 try: 
 	for port in range(1,65535):
@@ -31,4 +31,3 @@ except socket.gaierror:
 except socket.error:
 	print("Couldn't connect to server.")
 	sys.exit()
-
