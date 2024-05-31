@@ -3,5 +3,5 @@
 # Install
 
 ```
-git clone https://github.com/10hxrz/scripts.git
+git clone https://github.com/b1tm4r/scripts.git
 ```
